@@ -1,0 +1,98 @@
+html,body{
+	margin:0px;
+	padding:0px;
+}
+#main{
+	width:960px;
+	height:620px;
+	margin:0px auto;
+}
+#header{
+	padding:5px 20px;
+	background-color:#3C8DBC;
+	font-size:24px;
+	
+}
+#author{
+	color:#D4D0D0;
+	font-size:20px;
+}
+.tihao{
+	word-wrap:break-word; 
+
+}
+.tihao span{
+	display:inline-block;
+	padding:7px;
+	width:20px;
+	color: #000000;
+	border: 1px solid #F4F4F4;
+	border-radius:2px;
+	cursor:pointer;
+}
+.tihao span:hover{
+	
+	background-color:#16a085;
+	transition:background-color .25s;
+}
+.title{
+	color:#222;
+	margin-bottom:5px;
+	margin-top:5px;
+	padding:5px 10px;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+}
+#left{
+	float:left;
+	width:185px;
+	height:600px;
+	background-color:#F4F4F4;
+	
+}
+#right{
+	float:left;
+	width:775px;
+	height:600px;
+	overflow:hidden;
+}
+#head{
+	height:70px;
+	background: #fbfbfb;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #dbdbdb;
+}
+#timer{
+	padding:15px 0px;
+}
+#content{
+	height:380px;
+	background-image: url(../images/xinda.png);
+	background-color:#F9F9F9;
+}
+#content div{
+	padding:10px 0px;
+}
+#optionbar{
+	margin:0px 20px;
+}
+#head,#analyze,#content{
+	width:100%;
+	padding-left:20px;
+}
+#analyze{
+	height:150px;
+	background: #fbfbfb;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #dbdbdb;
+}
+#nowaday{
+	padding:10px;
+}
+
+#aaa{
+	height:120px;
+}
+#operation{
+	padding:3px;
+}
